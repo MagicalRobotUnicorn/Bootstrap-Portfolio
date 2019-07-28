@@ -11,9 +11,12 @@ body {
   font-family: 'Cormorant Infant', serif;
 }
 
-.navbar-nav {
-  align-content: right;
-  float: right;
+.navbar {
+  color: black !important;
+}
+
+a {
+  color: black;
 }
 
 .img-circle {
