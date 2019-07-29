@@ -3,7 +3,7 @@
 }
 
 .row {
-  align-content: center;
+  margin: 50px;
 }
 nav {
   width: 960px;
@@ -41,7 +41,10 @@ a {
 
 #footer-id {
   margin-top: 75px;
+  float: right;
   text-align: right;
+  align-content: right;
+
   font-family: 'Permanent Marker', cursive;
   color: black;
 }
@@ -60,8 +63,23 @@ a {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
 }
 
+#picture-frame {
+  margin: 40px;
+  float: left;
+  margin-right: 20px;
+}
+
+#text-frame {
+  margin: 40px;
+  float: right;
+}
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  width: 960px;
 }
