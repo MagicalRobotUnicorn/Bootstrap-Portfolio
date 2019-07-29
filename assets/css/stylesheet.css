@@ -2,6 +2,9 @@
   width: 960px;
 }
 
+.row {
+  align-content: center;
+}
 nav {
   width: 960px;
   font-family: 'Permanent Marker', cursive;
@@ -19,6 +22,11 @@ a {
   color: black;
 }
 
+#card-id {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .img-circle {
   width: auto;
   border-radius: 50%;
@@ -28,6 +36,7 @@ a {
 #page-title {
   margin: 75px;
   text-align: center;
+  align-content: center;
 }
 
 #footer-id {
@@ -45,10 +54,12 @@ a {
   height: 400px;
   width: 240px;
   float: left;
-  margin: 40px;
+  /* margin: 40px; */
   /* margin-bottom: 40px; */
   font-size: 18px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card:hover {
