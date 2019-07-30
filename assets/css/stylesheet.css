@@ -42,8 +42,8 @@ a {
 #footer-id {
   margin-top: 75px;
   float: right;
-  text-align: right;
-  align-content: right;
+  text-align: right !important;
+  align-content: right !important;
 
   font-family: 'Permanent Marker', cursive;
   color: black;
@@ -80,6 +80,6 @@ a {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.form-group {
+/* .form-group {
   width: 960px;
-}
+} */
